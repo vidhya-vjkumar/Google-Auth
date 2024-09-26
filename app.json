@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "expo-demo",
+    "slug": "expo-demo",
+    "owner": "vidhya_vjkumar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "expo-demo",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.expodemo"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-google-signin/google-signin"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77a45787-e523-48c4-803e-9c51a336bcdd",
+        "googleClientId": "939007946672-pll5tmk3pun9qcogcm2lk0j8ci7fnarf.apps.googleusercontent.com"
+      }
+    }
+  }
+}
