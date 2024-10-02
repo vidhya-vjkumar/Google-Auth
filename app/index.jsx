@@ -1,5 +1,6 @@
 import { Button, Text, View } from "react-native"
 import LoginWithGoogle from '../components/LoginWithGoogle.jsx'
+import {Notification} from "../components/Notifications.jsx"
 
 const Index = () => {
   return(
@@ -11,6 +12,7 @@ const Index = () => {
       alignItems: "center"
       }}>
         <LoginWithGoogle />
+        <Notification />
       </View>
     
     
